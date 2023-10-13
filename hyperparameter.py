@@ -29,15 +29,12 @@ def model_param_list():
     model_params["pooling_dropout"] = 0.1
     model_params["linear_dropout"] = 0.1
 
-    # 我加的
     model_params['smi_dict_path'] = 'dictionary/smiles_dict.pickle'
     model_params['fas_dict_path'] = 'dictionary/fasta_dict.pickle'
     model_params['smiles_max_len'] = 1500
     model_params['fasta_max_len'] = 15000
-    # model_params['smi_dict_len'] = 61  # The length of dictionary
-    # model_params['fas_dict_len'] = 8083  # The length of dictionary
-    model_params['smi_dict_len'] = 64  # The length of dictionary
-    model_params['fas_dict_len'] = 8107  # The length of dictionary
+    # model_params['smi_dict_len'] = 64  # The length of dictionary
+    # model_params['fas_dict_len'] = 8107  # The length of dictionary
     model_params['smi_ngram'] = 1
     model_params['fas_ngram'] = 3
     model_params['protein_kernel'] = [4, 8, 12]
