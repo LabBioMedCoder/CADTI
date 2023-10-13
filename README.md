@@ -23,7 +23,7 @@ In the dataset folder, we provide the processed data of Luo_data.
 # ESFP and dictionary
 The ESFP folder contains the data needed for the FCS embedding method that is built based on MolTrans https://github.com/kexinhuang12345/MolTrans. The "dictionary" directory includes the dictionaries constructed for drugs and targets in the luo dataset.
 
-# Code
+# Resources
 * dataset.py: data process.
 * main.py: train and test the model
 * hyperparameter.py: set the hyperparameter of CrossAttentionDTI
@@ -31,7 +31,10 @@ The ESFP folder contains the data needed for the FCS embedding method that is bu
 * measure.py: The module for calculating metrics
 
 # Setting directory
-Making the "result" directory before running the model. the run results are saved in the "result" directory.
+Make the "result" directory before running the model. The run results are saved in the "result" directory
+
+# Run
+python main.py
 
 
 
