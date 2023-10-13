@@ -13,3 +13,7 @@ Fig. 1. The framework of CrossAttentionDTI.The CrossAttentionDTI framework consi
 * tensorflow==2.6.0
 * keras==2.9.0
 * scikit-learn==1.1.1
+* RDKit==2022.9.3
+* gensim==4.2.0
+* subword-nmt==0.3.8
+
