@@ -25,10 +25,13 @@ The ESFP folder contains the data needed for the FCS embedding method that is bu
 
 # Code
 * dataset.py: data process.
-* main.py: train and test the model.
+* main.py: train and test the model
 * hyperparameter.py: set the hyperparameter of CrossAttentionDTI
 * model.py: CrossAttentionDTI model architecture
-* 
+* measure.py: The module for calculating metrics
+
+# Setting directory
+Making the "result" directory before running the model. the run results are saved in the "result" directory.
 
 
 
